@@ -129,6 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_URL = 'signin'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, '/results')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'results/')
 
-MEDIA_URL = 'results/'
+MEDIA_URL = '/results/'
