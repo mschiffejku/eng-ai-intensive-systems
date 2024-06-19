@@ -1,0 +1,104 @@
+{
+  "shelf_scan_result": {
+    "shelf": {
+      "rectangle_area": {
+        "left_top": {
+          "x": 0,
+          "y": 720
+        },
+        "right_bottom": {
+          "x": 1278,
+          "y": 0
+        }
+      }
+    },
+    "products": [
+      {
+        "product_code": "cola",
+        "confidence": 98,
+        "rectangle_area": {
+          "left_top": {
+            "x": 213,
+            "y": 720
+          },
+          "right_bottom": {
+            "x": 395,
+            "y": 385
+          }
+        }
+      },
+      {
+        "product_code": "fanta",
+        "confidence": 96,
+        "rectangle_area": {
+          "left_top": {
+            "x": 935,
+            "y": 481
+          },
+          "right_bottom": {
+            "x": 1015,
+            "y": 389
+          }
+        }
+      },
+      {
+        "product_code": "sprite",
+        "confidence": 47,
+        "rectangle_area": {
+          "left_top": {
+            "x": 1183,
+            "y": 718
+          },
+          "right_bottom": {
+            "x": 1278,
+            "y": 550
+          }
+        }
+      },
+      {
+        "product_code": "fanta",
+        "confidence": 35,
+        "rectangle_area": {
+          "left_top": {
+            "x": 937,
+            "y": 481
+          },
+          "right_bottom": {
+            "x": 1015,
+            "y": 334
+          }
+        }
+      },
+      {
+        "product_code": "fanta",
+        "confidence": 27,
+        "rectangle_area": {
+          "left_top": {
+            "x": 255,
+            "y": 288
+          },
+          "right_bottom": {
+            "x": 483,
+            "y": 64
+          }
+        }
+      },
+      {
+        "product_code": "fanta",
+        "confidence": 27,
+        "rectangle_area": {
+          "left_top": {
+            "x": 907,
+            "y": 482
+          },
+          "right_bottom": {
+            "x": 1050,
+            "y": 273
+          }
+        }
+      }
+    ],
+    "original_image": "uploads/testing.png",
+    "result_image": "results/20240608-134125-scan_result.json"
+  }
+}

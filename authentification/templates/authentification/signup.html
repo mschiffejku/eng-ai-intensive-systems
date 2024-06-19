@@ -1,0 +1,46 @@
+{% extends "authentification/base.html" %}
+{% block metatags %}
+    <title>Sign Up</title>
+{% endblock metatags %}
+
+{% block body %}              
+<div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center">
+<div class="col-md-6 col-lg-4">
+            <form class="card" action="/signup" method="post">
+              {% csrf_token %}
+              <h5 class="card-title fw-400">Sign Up</h5>
+              <div class="card-body">
+                <div class="form-group">
+                  <input class="form-control" type="text" id="username" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" id="fname" name="fname" placeholder="First name" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" id="sname" name="sname" placeholder="Surname" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="password" id="password1" name="password1" placeholder="Password" required>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="password" id="password2" name="password2" placeholder="Confirm Password" required>
+                </div>
+
+
+                <button class="btn btn-block btn-bold btn-primary" type="submit">Sign Up</button>
+              </div>
+            </form>
+            <hr>
+            <div><i><a href="/">Home page</a></i></div>
+          </div>
+           </div>
+            </div>
+             </div>
+{% endblock body %}

@@ -1,0 +1,21 @@
+{% extends "authentification/index.html" %}
+{% block metatags %}
+<title>Start scanning</title>
+{% endblock metatags %}
+{% block content %}
+<div class="card align-items-center">
+    <h5 class="card-title fw-400">Check identified products</h5>
+<img href="{{BASE_DIR}}/results/{{image}}" >
+<a href=" http://127.0.0.1:8000/results/{{image}}">Image</a>
+<br>
+<p>{{number}}</p>
+<h5 class="card-title fw-400">Is number of products correct?</h5>
+<button class="btn btn-block btn-bold btn-primary" type="submit"><a href="/mockwhms" class="link-secondary">Yes</a></button>
+<button class="btn btn-block btn-bold btn-primary" type="submit">No</button>
+</div>
+<!--<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button class="btn btn-block btn-bold btn-primary" type="submit">Upload</button>
+</form>-->
+{% endblock content %}

@@ -1,0 +1,4 @@
+Django==5.0.4
+numpy==2.0.0
+supervision==0.21.0
+ultralytics==8.2.28

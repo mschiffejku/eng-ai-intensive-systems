@@ -1,0 +1,16 @@
+{% extends "authentification/index.html" %}
+{% block metatags %}
+<title>Start scanning</title>
+{% endblock metatags %}
+{% block content %}
+<div class="card">
+    <h5 class="card-title fw-400">Upload image to start scanning</h5>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    
+    <!--<input type="file" accept="image/*" enctype="multipart/form-data" id="image" name="image" required>-->
+    {{form.as_p}}
+    <button class="btn btn-block btn-bold btn-primary" type="submit">Upload</button>
+</form>
+</div>
+{% endblock content %}
