@@ -20,7 +20,7 @@ For prototyping the use case we count soda cans (Coca Cola, Fanta, Sprite) which
 
 1. open a shell / command line
 2. create a new anaconda environment (with Python 3.11) by using the following command: conda create -n your_environment_name
-3. active your newly create Anaconda environment by running this command on the shell / cmd line: conda activate your_environment_name
+3. activate your newly create Anaconda environment by running this command on the shell / cmd line: conda activate your_environment_name
 2. download the prototype code from GitHub -> https://github.com/mschiffejku/eng-ai-intensive-systems
 3. change the current directory to the location where your downloaed the source code to
 3. install python libraries by running the following command: pip install -r requirements.txt
