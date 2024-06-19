@@ -5,8 +5,8 @@
 {% block content %}
 <div class="card align-items-center">
     <h5 class="card-title fw-400">Check identified products</h5>
-<img href="{{BASE_DIR}}/results/{{image}}" >
-<a href=" http://127.0.0.1:8000/results/{{image}}">Image</a>
+<img href="{{MEDIA_ROOT}}{{image}}" alt="http://127.0.0.1:8000/results/{{image}}">
+<!--<a href=" http://127.0.0.1:8000/results/{{image}}">Image</a>-->
 <br>
 <p>{{number}}</p>
 <h5 class="card-title fw-400">Is number of products correct?</h5>
